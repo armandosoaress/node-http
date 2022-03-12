@@ -12,9 +12,6 @@ http
               })
         );
     }
-
-
-    
     if (request.url === '/usuario') {
         return response.end(
             JSON.stringify({
